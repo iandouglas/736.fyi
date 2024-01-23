@@ -1,0 +1,6 @@
+content
+data
+assets
+__pycache__
+*.swp
+*.lock

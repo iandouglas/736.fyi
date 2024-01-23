@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 736.fyi</title>
+    <link>https://736.fyi/posts/</link>
+    <description>Recent content in Posts on 736.fyi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Jan 2024 16:58:03 -0800</lastBuildDate>
+    <atom:link href="https://736.fyi/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing</title>
+      <link>https://736.fyi/posts/testing/</link>
+      <pubDate>Mon, 22 Jan 2024 16:58:03 -0800</pubDate>
+      <guid>https://736.fyi/posts/testing/</guid>
+      <description>ian was here</description>
+    </item>
+  </channel>
+</rss>

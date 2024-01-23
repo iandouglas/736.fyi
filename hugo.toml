@@ -1,0 +1,4 @@
+baseURL = 'https://736.fyi'
+languageCode = 'en-us'
+title = '736.fyi'
+theme = 'papermod'
