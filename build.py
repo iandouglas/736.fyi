@@ -6,7 +6,11 @@ import os
 
 # delete all files in the 'content/posts' folder
 os.system('rm -rf content/*.md')
-os.system('rm -rf ')
+
+with open('content/healthcheck.md', 'w') as f:
+    f.write('---\ntitle: Healthcheck\nslug: healthcheck\ndraft: false\n---\n\nHealthcheck')
+
+os.system('rm -rf public/*')
 
 TEMPLATE = '''---
 title: TITLE
@@ -31,10 +35,10 @@ for shorturl, data in URLS.items():
         content = content.replace('SHORTURL', shorturl)
         content = content.replace('DESCRIPTION', data['description'])
         content = content.replace('NEW_URL', data['url'])
-        # get yesterday's date in YYYY-MM-DD format
-        # yesterday = (datetime.datetime.now() - datetime.timedelta(days=1)).strftime('%Y-%m-%d')
-        # content = content.replace('DATE', yesterday)
         f.write(content)
+
+# build everything
+os.system('hugo')
 
 # run `hugo server` in the background
 # iterate over the data structure again

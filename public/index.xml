@@ -6,15 +6,7 @@
     <description>Recent content in Default URL to my home page on 736.fyi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Jan 2024 16:58:03 -0800</lastBuildDate>
     <atom:link href="https://736.fyi/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Testing</title>
-      <link>https://736.fyi/posts/testing/</link>
-      <pubDate>Mon, 22 Jan 2024 16:58:03 -0800</pubDate>
-      <guid>https://736.fyi/posts/testing/</guid>
-      <description>ian was here</description>
-    </item>
     <item>
       <title>Book Algorithm and system design practice sessions with me, or get a private resume review!</title>
       <link>https://736.fyi/meetapro/</link>
@@ -86,6 +78,13 @@ Description: Get a free 3D printed helmet for subscribing to my Twitch channel!<
       <guid>https://736.fyi/joke/</guid>
       <description>Redirecting to https://us-central1-dadjokeapi.cloudfunctions.net/getRandomJoke
 Description: Get a random dad joke</description>
+    </item>
+    <item>
+      <title>Healthcheck</title>
+      <link>https://736.fyi/healthcheck/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://736.fyi/healthcheck/</guid>
+      <description>Healthcheck</description>
     </item>
     <item>
       <title>How to use LinkedIn to get better introductions</title>

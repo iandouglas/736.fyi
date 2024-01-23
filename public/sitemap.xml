@@ -2,20 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://736.fyi/</loc>
-    <lastmod>2024-01-22T16:58:03-08:00</lastmod>
-  </url><url>
-    <loc>https://736.fyi/posts/</loc>
-    <lastmod>2024-01-22T16:58:03-08:00</lastmod>
-  </url><url>
-    <loc>https://736.fyi/posts/testing/</loc>
-    <lastmod>2024-01-22T16:58:03-08:00</lastmod>
-  </url><url>
     <loc>https://736.fyi/meetapro/</loc>
   </url><url>
     <loc>https://736.fyi/iio/</loc>
   </url><url>
     <loc>https://736.fyi/categories/</loc>
+  </url><url>
+    <loc>https://736.fyi/</loc>
   </url><url>
     <loc>https://736.fyi/discord/</loc>
   </url><url>
@@ -30,6 +23,8 @@
     <loc>https://736.fyi/subhelmets/</loc>
   </url><url>
     <loc>https://736.fyi/joke/</loc>
+  </url><url>
+    <loc>https://736.fyi/healthcheck/</loc>
   </url><url>
     <loc>https://736.fyi/intros/</loc>
   </url><url>
