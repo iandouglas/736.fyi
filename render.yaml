@@ -3,8 +3,4 @@ services:
     runtime: static
     name: 736-fyi
     env: static
-    buildCommand: hugo server
     staticPublishPath: ./public
-    envVars:
-      - key: POST
-        value: 1313
