@@ -4,44 +4,56 @@ from urls import URLS
 import datetime
 import os
 
-# delete all files in the 'content/posts' folder
-os.system('rm -rf content/*.md')
-
-with open('content/healthcheck.md', 'w') as f:
-    f.write('---\ntitle: Healthcheck\nslug: healthcheck\ndraft: false\n---\n\nHealthcheck')
-
+# delete all files to get started
 os.system('rm -rf public/*')
 
-TEMPLATE = '''---
-title: TITLE
-slug: SHORTURL
-location: NEW_URL
-draft: false
----
-
-Redirecting to [NEW_URL](NEW_URL)
-
-Description: DESCRIPTION
+CORE_HTML = '''<!DOCTYPE html>
+<html lang="en">
+<head><title>TITLE</title>
+<meta charset="utf-8"><meta name="robots" content="index, follow">
+REDIRECT1
+</head>
+<body>
+CONTENT
+<p>Description: DESCRIPTION</p>
+</body>
+</html>
 '''
+
+REDIRECT1 = '''<meta http-equiv=refresh content="0; url=FULL_URL">
+<script>window.location.replace("FULL_URL")</script>'''
+
+
 
 
 # iterate over a data structure of shorturl pages
 for shorturl, data in URLS.items():
     # create a new file in the 'content/posts' folder based on shorturl name
+    path = 'public'
     if shorturl == '*':
-        shorturl = '_index'
-    with open(f'content/{shorturl}.md', 'w') as f:
-        content = TEMPLATE.replace('TITLE', data['description'].replace(':', ' - ' ))
-        content = content.replace('SHORTURL', shorturl)
-        content = content.replace('DESCRIPTION', data['description'])
-        content = content.replace('NEW_URL', data['url'])
+        shorturl = ''
+    else:
+        os.mkdir(f'public/{shorturl}')
+        os.mkdir(f'public/{shorturl}+')
+        path = f'public/{shorturl}'
+    with open(f'{path}/index.html', 'w') as f:
+        content = CORE_HTML.replace('TITLE', data['description']).replace('DESCRIPTION', data['description'])
+        content = content.replace('CONTENT', f'<p>Redirecting to <a href="FULL_URL">FULL_URL</a></p>')
+        content = content.replace('REDIRECT1', REDIRECT1.replace('FULL_URL', data['url']))
         f.write(content)
+    if shorturl != '':
+        with open(f'{path}+/index.html', 'w') as f:
+            content = CORE_HTML.replace('TITLE', data['description']).replace('DESCRIPTION', data['description'])
+            content = content.replace('CONTENT', f'<p>Full redirect URL: <a href="FULL_URL">FULL_URL</a></p>')
+            content = content.replace('FULL_URL', data['url']).replace('REDIRECT1', '')
+            f.write(content)
 
-# build everything
-os.system('hugo')
+HEALTHCHECK = CORE_HTML.replace('TITLE', 'healthcheck').replace('REDIRECT1', '').replace('CONTENT', '<p>online</p>').replace('DESCRIPTION', 'healthcheck')
+path = f'public/healthcheck'
+os.mkdir(path)
+with open(f'{path}/index.html', 'w') as f:
+    content = CORE_HTML.replace('TITLE', 'healthcheck').replace('DESCRIPTION', 'healthcheck')
+    content = content.replace('CONTENT', f'<p>online</p>')
+    content = content.replace('REDIRECT1', '')
+    f.write(content)
 
-# run `hugo server` in the background
-# iterate over the data structure again
-    # assert that each shorturl points to a new page
-    # assert that each page redirects properly
-# kill the hugo server
