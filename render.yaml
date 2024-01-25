@@ -4,3 +4,4 @@ services:
     name: 736-fyi
     env: static
     staticPublishPath: ./public
+    buildCommand: python build.py
