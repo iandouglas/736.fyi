@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
-from urls import URLS
-import datetime
+import json
 import os
 
 # delete all files to get started
@@ -23,9 +22,7 @@ CONTENT
 REDIRECT1 = '''<meta http-equiv=refresh content="0; url=FULL_URL">
 <script>window.location.replace("FULL_URL")</script>'''
 
-
-
-
+URLS = json.loads(open('urls.json', 'r').read())
 # iterate over a data structure of shorturl pages
 for shorturl, data in URLS.items():
     # create a new file in the 'content/posts' folder based on shorturl name
