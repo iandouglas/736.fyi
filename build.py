@@ -4,7 +4,8 @@ import json
 import os
 
 # delete all files to get started
-os.system('rm -rf public/*')
+os.system('rm -rf public')
+os.mkdir('./public')
 
 CORE_HTML = '''<!DOCTYPE html>
 <html lang="en">
