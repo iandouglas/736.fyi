@@ -7,16 +7,6 @@ The main benefit here is that you're not using a full framework, most static sit
 Each short URL will also support the `+` suffix to preview what the URL redirect is going to be, e.g. `https://example.com/shorturl+` will show you the redirect URL before you're redirected.
 
 
-## Deploy to Render
-
-1. Fork this repo
-2. Alter the `urls.json` file to your liking
-3. Push your changes to your own repo
-4. Click this button to deploy to Render
-
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
-
-
 ## Future plans
 
 1. Make the template HTML external to the Python script.
