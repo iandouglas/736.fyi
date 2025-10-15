@@ -1,4 +1,6 @@
 {
+    "vibe-prompting": {"url": "https://docs.google.com/presentation/d/1mKLe-jkLBS00QuOtzzLwTbR8-cf3ge8CEVC5cSNLEpU", "description": "slide deck"},
+    
     "live": {"url": "https://twitch.tv/iandouglas736", "description": "Watch me live on Twitch!"},
 
     "discord": {"url": "https://discord.com/invite/gG4RjKJAcr", "description": "Drop by the Discord server for help with Streamer.bot or interview preparation"},
@@ -40,3 +42,4 @@
 
     "*": {"url": "https://iandouglas.llc/", "description": "Default URL to my home page"}
 }
+
