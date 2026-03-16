@@ -1,2 +1,5 @@
 [build]
 buildCommand = "python build.py"
+
+[start]
+cmd = "python -m http.server 8000 --directory public"
