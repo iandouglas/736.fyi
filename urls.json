@@ -30,9 +30,10 @@
     "resumesample": {"url": "https://docs.google.com/document/d/1IejTl5XiNnkVfnO73hCbi9Hgxmo5EXh5iM_I82y2aGg/edit?usp=sharing", "description": "Example resume snippets and layouts you can use, and see different ways to effectively show your skills, projects, and work experience"},
 
     "resumereview": {"url": "https://techinterview.guide/resumereview", "description": "Submit a PDF resume for a free review on my Twitch stream"},
-    "resrev": {"url": "https://techinterview.guide/resumereview", "description": "Submit a PDF resume for a free review on my Twitch stream"},
+    "resrev": {"url": "https://techinterview.guide/resume-reviews", "description": "Submit a PDF resume for a free review on my Twitch stream"},
 
     "newsletter": {"url": "https://techinterview.guide/newsletters", "description": "My free email newsletters for interview preparation and career advice"},
+    "newsletters": {"url": "https://techinterview.guide/newsletters", "description": "My free email newsletters for interview preparation and career advice"},
     "emails": {"url": "https://techinterview.guide/newsletters", "description": "My free email newsletters for interview preparation and career advice"},
 
     "leetcode": {"url": "https://www.youtube.com/c/IanDouglas/search?query=leetcode", "description": "My YouTube videos about doing LeetCode smarter, not harder"},
