@@ -3,43 +3,32 @@
     "vibe-prompting": {"url": "https://docs.google.com/presentation/d/1mKLe-jkLBS00QuOtzzLwTbR8-cf3ge8CEVC5cSNLEpU", "description": "slide deck"},
 
     "linkedin": {"url":"https://linkedin.com/in/iandouglas736", "description": "Conenct with Ian on LinkedIn"},
+    "bluesky": {"url":"https://bsky.app/profile/iandouglas736.com", "description": "Conenct with Ian on Bluesky"},
+    "twitter": {"url":"https://x.com/iandouglas736", "description": "Conenct with Ian on X/Twitter"},
+    "x": {"url":"https://x.com/iandouglas736", "description": "Conenct with Ian on X/Twitter"},
     
-    "jobtracker": {"url": "https://trello.com/b/n9ZrfOKz/job-tracker-template", "description": "Trello template for job tracking"},
     "live": {"url": "https://twitch.tv/iandouglas736", "description": "Watch me live on Twitch!"},
-
+    "twitch": {"url": "https://twitch.tv/iandouglas736", "description": "Watch me live on Twitch!"},
+    "youtube": {"url": "https://youtube.com/@iandouglas", "description": "My YouTube channel"},
+    "podcast": {"url": "https://techinterview.guide/podcast/", "description": "Interview prep in audio-only format"},
     "discord": {"url": "https://discord.com/invite/gG4RjKJAcr", "description": "Drop by the Discord server for help with Streamer.bot or interview preparation"},
     
     "sb": {"url": "https://github.com/iandouglas/streamerbot-examples", "description": "Ian's open-source Streamer.bot code examples"},
-
-    "subhelmet": {"url": "https://cool3dthings.com/twitch-sub-tember/", "description": "Get a free 3D printed helmet for subscribing to my Twitch channel!"},
-    "subhelmets": {"url": "https://cool3dthings.com/twitch-sub-tember/", "description": "Get a free 3D printed helmet for subscribing to my Twitch channel!"},
-
-    "helmets": {"url": "https://cool3dthings.com/product-category/3d-print/cosplay-helmet/", "description": "My catalog of 3D printed cosplay helmets"},
-    "lightsabers": {"url": "https://cool3dthings.com/product-category/3d-print/cosplay-lightsaber/", "description": "My catalog of 3D printed cosplay lightsabers"},
-
-    "meetapro": {"url": "https://meetapro.com/provider/iandouglas736", "description": "Book Algorithm and system design practice sessions with me, or get a private resume review!"},
-
-    "youtube": {"url": "https://youtube.com/iandouglas", "description": "My YouTube channel"},
-    "podcast": {"url": "https://techinterview.guide/podcast/", "description": "Interview prep in audio-only format"},
-    
-    "tig": {"url": "https://techinterview.guide/", "description": "Free tech interview resources"},
-    
     "project": {"url": "https://github.com/iandouglas/fundamentals", "description": "Ian's suggested 'fundamentals' project"},
 
+    "meetapro": {"url": "https://meetapro.com/provider/iandouglas736", "description": "Book Algorithm and system design practice sessions with me, or get a private resume review!"},
+    "tig": {"url": "https://techinterview.guide/", "description": "Free tech interview resources"},
+    "jobtracker": {"url": "https://trello.com/b/n9ZrfOKz/job-tracker-template", "description": "Trello template for job tracking"},
     "intros": {"url": "https://gist.github.com/iandouglas/ad72a09fe65b4dcbf395f68f2c5eaaeb", "description": "How to use LinkedIn to get better introductions"},
-
     "research": {"url": "https://docs.google.com/spreadsheets/d/1bii_AcX_ZDj_-NHLz4sK7_oBqEKPxJDcpVPsXe1F5l8/edit?usp=sharing", "description": "Free worksheet to practice researching a company before an interview"},
-
     "resumesample": {"url": "https://docs.google.com/document/d/1IejTl5XiNnkVfnO73hCbi9Hgxmo5EXh5iM_I82y2aGg/edit?usp=sharing", "description": "Example resume snippets and layouts you can use, and see different ways to effectively show your skills, projects, and work experience"},
-
     "resumereview": {"url": "https://techinterview.guide/resumereview", "description": "Submit a PDF resume for a free review on my Twitch stream"},
     "resrev": {"url": "https://techinterview.guide/resume-reviews", "description": "Submit a PDF resume for a free review on my Twitch stream"},
+    "leetcode": {"url": "https://www.youtube.com/c/IanDouglas/search?query=leetcode", "description": "My YouTube videos about doing LeetCode smarter, not harder"},
 
     "newsletter": {"url": "https://techinterview.guide/newsletters", "description": "My free email newsletters for interview preparation and career advice"},
     "newsletters": {"url": "https://techinterview.guide/newsletters", "description": "My free email newsletters for interview preparation and career advice"},
     "emails": {"url": "https://techinterview.guide/newsletters", "description": "My free email newsletters for interview preparation and career advice"},
-
-    "leetcode": {"url": "https://www.youtube.com/c/IanDouglas/search?query=leetcode", "description": "My YouTube videos about doing LeetCode smarter, not harder"},
 
     "joke": {"url": "https://dadjokes736.com", "description": "Get a random dad joke"},
 
