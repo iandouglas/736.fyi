@@ -34,6 +34,8 @@
 
     "joke": {"url": "https://dadjokes736.com", "description": "Get a random dad joke"},
 
+    "playlist": {"url":"https://music.youtube.com/playlist?list=PLfi5Ww9Zjryo", "description":"YouTube playlist for aiDevCo channel"},
+    
     "*": {"url": "https://iandouglas.llc/", "description": "Default URL to my home page"}
 }
 
